@@ -8,3 +8,13 @@ bottom: 47.52%;
 
 background: #B50014;
 }
+/* Rectangle 63 */
+.navButton input{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 47.52%;
+background: #B50014;
+outline: none;
+}
