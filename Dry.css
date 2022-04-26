@@ -1,0 +1,20 @@
+body{
+    background-color: #000;
+}
+div{
+    color: aliceblue;
+    font-family: 'Roboto';
+}
+h2{
+position: absolute;
+width: 128px;
+height: 42px;
+left: 412px;
+top: 963px;
+}
+.text1{
+    font-size: 26pt;
+}
+.text2{
+    font-size: 20pt;
+}
