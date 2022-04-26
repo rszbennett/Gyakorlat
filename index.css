@@ -98,15 +98,12 @@ z-index: 10;
 
 background: rgba(0, 0, 0, 0.3);
 }
-
-/* Heiko Brath Metzgermeister */
 h1{
 position: absolute;
 width: 270px;
 height: 90px;
 left: 260px;
 
-/* H1 */
 font-family: 'Roboto Condensed';
 font-style: normal;
 font-weight: 700;
