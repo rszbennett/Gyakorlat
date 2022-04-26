@@ -7,8 +7,7 @@ top: 0px;
 background: #B50014;
 margin: 0%;
 }
-<<<<<<< HEAD
-/* Rectangle 63 */
+
 .navButton input{
 position: absolute;
 left: 0%;
@@ -18,7 +17,7 @@ bottom: 47.52%;
 background: #B50014;
 outline: none;
 } 
-=======
+
 
 .navButton a{
     
@@ -31,10 +30,6 @@ outline: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-<<<<<<< HEAD
-}
->>>>>>> 1a0a9abc7ad2fa461f6299100b22e1556605197d
-=======
     text-decoration: none;
 }
 .navButton a.nb1{
@@ -100,5 +95,3 @@ outline: none;
     z-index:  11;
     
 }
->>>>>>> cb2276afdcac88d0c835750d86bc13644454750b
-
