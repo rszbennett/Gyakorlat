@@ -8,21 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" >
 </head>
-<body>
-    <div class="container">
-        <input type="radio" id="i1" name="images" checked />
-        <input type="radio" id="i2" name="images" />
-        <input type="radio" id="i3" name="images" />
-        <input type="radio" id="i4" name="images" />
-        <input type="radio" id="i5" name="images" />	
-        
-        <div class="slide_img" id="one">			
-                
-                <img src="images/imageSlide.jpg">
-                
-                    <label class="prev" for="i5"><span>‹</span></label>
-                    <label class="next" for="i2"><span>›</span></label>	
-            
+<body>         
     <div class="header">
         <div class="logo">
             <img src="images/logo.png" alt="">
@@ -37,7 +23,23 @@
         <button class="nb7"  type="submit">Impressum</button>
         <button class="nb8"  type="submit">Kontakt</button>
         </div>
+    </div>
+
+    <div class="container">
+        <input type="radio" id="i1" name="images" checked />
+        <input type="radio" id="i2" name="images" />
+        <input type="radio" id="i3" name="images" />
+        <input type="radio" id="i4" name="images" />
+        <input type="radio" id="i5" name="images" />	
         
+        <div class="slide_img" id="one">			
+                
+                <img src="images/imageSlide.jpg">
+                
+                    <label class="prev" for="i5"><span>‹</span></label>
+                    <label class="next" for="i2"><span>›</span></label>	
+        </div>
+    
         <div class="slide_img" id="two">
             
                 <img src="images/imageSlide.jpg" >
@@ -53,25 +55,28 @@
                     <label class="prev" for="i2"><span>‹</span></label>
                     <label class="next" for="i4"><span>›</span></label>
         </div>
+
         <div class="slide_img" id="four">
                 <img src="images/imageSlide.jpg">	
                 
                     <label class="prev" for="i3"><span>‹</span></label>
                     <label class="next" for="i5"><span>›</span></label>
         </div>
+
         <div class="slide_img" id="five">
                 <img src="images/imageSlide.jpg">	
                 
                     <label class="prev" for="i4"><span>‹</span></label>
                     <label class="next" for="i1"><span>›</span></label>
         </div>
+        
         <div id="nav_slide">
             <label for="i1" class="dots" id="dot1"></label>
             <label for="i2" class="dots" id="dot2"></label>
             <label for="i3" class="dots" id="dot3"></label>
             <label for="i4" class="dots" id="dot4"></label>
             <label for="i5" class="dots" id="dot5"></label>
-        </div>	
+        </div>
     </div>
 </body>
 </html>
