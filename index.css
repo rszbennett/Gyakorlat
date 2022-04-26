@@ -112,6 +112,24 @@ line-height: 45px;
 
 color: #FFFFFF;
 }
+p{
+position: absolute;
+width: 275px;
+height: 134px;
+left: 298px;
+top: 135px;
+
+/* body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #FFFFFF;
+}
+
 
 
 @media screen and (max-width: 685px){
