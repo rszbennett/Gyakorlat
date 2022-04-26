@@ -1,7 +1,7 @@
 .header{
 position: absolute;
 width: 100%;
-height: 177.2px;
+height: 80px;
 left: 0px;
 top: 0px;
 background: #B50014;
@@ -32,49 +32,49 @@ outline: none;
 .navButton a.nb1{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 27%;
 }
 .navButton a.nb2{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 34%;
 }
 .navButton a.nb3{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 40%;
 }
 .navButton a.nb4{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 48%;
 }
 .navButton a.nb5{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 55%;
 }
 .navButton a.nb6{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 62%;
 }
 .navButton a.nb7{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 68%;
 }
 .navButton a.nb8{
     
     position: absolute;
-    top: 20%;
+    top: 35%;
     left: 75%;
 }
 
