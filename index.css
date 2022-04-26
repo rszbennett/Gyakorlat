@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .container{
     margin: 0 auto;
     margin-top: 80px;
@@ -84,7 +87,51 @@ label span{
 @keyframes scroll{
 0%{	opacity:.4;}
 100%{opacity:1;}
-}	
+}
+.slideTextBox{
+position: absolute;
+width: 629px;
+height: 348px;
+left: 0px;
+top: 287px;
+z-index: 10;
+
+background: rgba(0, 0, 0, 0.3);
+}
+h1{
+position: absolute;
+width: 270px;
+height: 90px;
+left: 260px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 45px;
+
+color: #FFFFFF;
+}
+p{
+position: absolute;
+width: 275px;
+height: 134px;
+left: 298px;
+top: 135px;
+
+/* body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #FFFFFF;
+}
+
+
+
 @media screen and (max-width: 685px){
     .container{
         border: none;
