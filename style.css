@@ -8,10 +8,6 @@ background: #B50014;
 margin: 0%;
 }
 
-<<<<<<< HEAD
-=======
-/* Rectangle 63 */
->>>>>>> ea15cde79457583da753570f5ef905ef2d4cdadc
 .navButton input{
 position: absolute;
 left: 0%;
@@ -88,8 +84,13 @@ outline: none;
     position: absolute;
     background-color: #252525;
     z-index: 11;
-    height: 30px;
+    height: 40px;
     width: 100%;
+}
+.time p{
+    position: absolute;
+    left: 60%;
+    top: -10px;
 }
 .logo{
     position: absolute;
@@ -99,8 +100,3 @@ outline: none;
     z-index:  12;
     
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> ea15cde79457583da753570f5ef905ef2d4cdadc
