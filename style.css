@@ -7,7 +7,6 @@ top: 0px;
 background: #B50014;
 margin: 0%;
 }
-
 .navButton input{
 position: absolute;
 left: 0%;
@@ -17,8 +16,6 @@ bottom: 47.52%;
 background: #B50014;
 outline: none;
 } 
-
-
 .navButton a{
     
     outline: none;
@@ -80,6 +77,7 @@ outline: none;
     top: 20%;
     left: 75%;
 }
+
 .time{
     position: absolute;
     background-color: #252525;
@@ -98,5 +96,4 @@ outline: none;
     width: 177.2px;
     height: 177.2px;
     z-index:  12;
-    
 }

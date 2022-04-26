@@ -1,7 +1,6 @@
-body{
-    background-color: #000;
+.dry{
+    z-index: 16;
 }
-
 h2{
     position: absolute;
     width: 128px;
@@ -53,7 +52,7 @@ color: #FFFFFF;
 }
 
 .button{
-    position: relative;
+    position: absolute;
     left: 421px;
     right: 1334px;
     top: 1357px;
