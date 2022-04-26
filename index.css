@@ -24,8 +24,7 @@ body{
     width: 12%;
     height: inherit;
     position: absolute;
-    top:0; 
-    background-color: rgba(88, 88, 88,.2);
+    top:0;
     color:rgba(244, 244, 244,.9);
     z-index: 99;
     transition: .45s;
@@ -43,7 +42,7 @@ label span{
 .prev:hover, 
 .next:hover{
       transition: .3s;
-      background-color: rgba(88, 88, 89,.8);
+      background-color: rgba(88, 88, 89,.2);
       color: #ffffff; 
   }
   .container #nav_slide{
