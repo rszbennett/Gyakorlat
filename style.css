@@ -70,7 +70,11 @@ margin: 0%;
     left: 75%;
 }
 .time{
-    
+    position: absolute;
+    background-color: #252525;
+    z-index: 12;
+    height: 30px;
+    width: 100%;
 }
 .logo{
     position: absolute;
