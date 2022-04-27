@@ -98,14 +98,95 @@ background-color: #B50014;
 .Auszeichnungen{
     display: flex;
     flex-flow: row;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 10%;
 }
 .Auszeichnungen > img{
-    padding-left: 50px;
+    padding-left: 90px;
     width: 119px;
     height: 119px;
 }
 .Auszeichnungen > h2{
     margin-top: 40px;
+}
+.Empfehlungs{
+    display: flex;
+    flex-flow: column;
+}
+.Empfehlungs > h2{
+    margin-top: auto;
+    margin-left: 37%;
+    color: #fff;
+}
+.Empfehlungs > h3{
+    opacity: 0.46;
+    color: #fff;
+    margin-left: 46.5%;
+    margin-top: 50px;
+    
+}
+.E_slider{
+    display: flex;
+    flex-flow: row;
+    width: 429px;
+    height: 414px;
+    background-color: #252525;
+    justify-content: center;
+    margin-left: 36%;
+    margin-top: 5%;
+}
+.slider_box{
+    display: flex;
+    flex-flow: column;
+    margin-top: 10px;
+}
+.boxText{
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+    color: #fff;
+}
+.boxText > h4{
+    margin-top: 50px;
+}
+.boxText > h5 {
+    margin-top: -10px;
+}
+.slider_box >img{
+    padding-top: 20px;
+    margin-left: 39%;
+    width: 100px;
+}
+.Empfehlungs > button{
+    width: 174px;
+    height: 47px;
+    color: #fff;
+    background: #B50014;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-left: 45%;
+}
+.footop{
+    margin-top: 100px;
+    background-color: #B50014;
+    width: 100%;
+    height: auto;
+}
+.footop > img{
+    margin-left: 45%;
+}
+.footbottom{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    background-color: #66000B;
+    height:  20px   ;
+}
+.footbottom > h5{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top:3px;
+    font-size: 11px;
+    margin-left: 22%;
 }
