@@ -47,10 +47,6 @@ background-color: #B50014;
     color: #fff;
     padding-top: 10px;
     width: auto;
-    
-    
-
-    
 }
 .logo{
     position: absolute;
@@ -58,4 +54,24 @@ background-color: #B50014;
     width: 177.2px;
     height: 177.2px;
     z-index:  12;
+}
+.Fleischversand > h2{
+    position: absolute;
+    left: 45%;
+}
+.Fleischversand >img{
+    width: 100%;
+}
+.Fleischversand > button{
+    position: absolute;
+    left: 45.5%;
+top: 413%;
+    width: 174px;
+    height: 47px;
+    color: #000000;
+    background: #fff;
+    border: 2px solid #B50014;
+    box-sizing: border-box;
+    border-radius: 40px;
+  
 }
