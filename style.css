@@ -1,13 +1,23 @@
 .header{
-position: relative;
+
 width: 100%;
 height: 100px;
 background-color: #B50014;
 
 }
-
-.navButton a{
+.navButton{
+    display:  flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-flow: nowrap;
+    order: 1;
+    margin-right: 20% ;
     
+
+}
+.navButton a{
+    padding-top: 2.5% ;
+    padding-left: 30px;
     outline: none;
     border: none;
     background-color: transparent;
@@ -18,74 +28,33 @@ background-color: #B50014;
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
-    z-index: 12;
-}
-.navButton a.nb1{
-    
-    position: absolute;
-    top: 20px;
-    left: 27%;
-}
-.header .navButton a.nb2{
-    
-    position: absolute;
-    top: 35%;
-    left: 34%;
-}
-.navButton a.nb3{
-    
-    position: absolute;
-    top: 35%;
-    left: 40%;
-}
-.navButton a.nb4{
-    
-    position: absolute;
-    top: 35%;
-    left: 48%;
-}
-.navButton a.nb5{
-    
-    position: absolute;
-    top: 35%;
-    left: 55%;
-}
-.navButton a.nb6{
-    
-    position: absolute;
-    top: 35%;
-    left: 62%;
-}
-.navButton a.nb7{
-    
-    position: absolute;
-    top: 35%;
-    left: 68%;
-}
-.navButton a.nb8{
-    
-    position: absolute;
-    top: 35%;
-    left: 75%;
 }
 
+
 .time{
-    position: relative;
+    display: inline-flex;
     background-color: #252525;
     z-index: 11;
-    margin-top: 90px;
     height: 40px;
     width: 100%;
 }
-.time p{
-    position: relative;
+.time label{
+    display: relative;
+    margin-left: 67%;
+    z-index: 11;
+    padding: 0;
+    height: fit-content;
+    color: #fff;
+    padding-top: 10px;
     width: auto;
-    left: 60%;
+    
+    
+
     
 }
 .logo{
-    position: relative;
-    left: 15%;
+    position: absolute;
+    left: 20%;
     width: 177.2px;
     height: 177.2px;
     z-index:  12;
