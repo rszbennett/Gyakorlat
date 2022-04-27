@@ -136,21 +136,30 @@ color: #FFFFFF;
     text-align: center;
     align-items: center;
 }
-.Btext h1{
+.Btext h2{
     padding-top: 9%;
     text-align: left;
-    margin-left: 4% ;
+    margin-left: 35%;
+    width: 40%;
     font-size: 20pt;
 }
 .Btext ul{
     margin-left: 30%;
-    margin-top: 35%;
+    margin-top: 5%;
     text-align: left;
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
-    line-height: px;
-    
+}
+.Btext > button{
+    width: 174px;
+    height: 47px;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border: 1px solid #ff0000;
+    box-sizing: border-box;
+    border-radius: 40px; 
+    color: #252525;
 }
 .bImg img{
     display: flex;
@@ -206,7 +215,7 @@ color: #FFFFFF;
 }
 .spice{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     height: 875px;
 }
 .spiceText{
@@ -218,19 +227,19 @@ color: #FFFFFF;
     align-items: center;
 
 }
-.spiceText h1{
+.spiceText:nth-of-type(1) h2{
     margin-top: 10%;
-    font-size: 20pt;
+    font-size: 21pt;
     width: auto;
     
 }
-.spiceText h2{
-    font-size: 15pt;
+.spiceText:nth-last-of-type(2) h2{
+    font-size: 13pt;
     width: 40%;
     line-height: 30px;
     text-align: left;
     margin-left: 25%;
-    margin-top: 25%;
+    
 }
 .spiceText h3{
     font-size: 12pt;
