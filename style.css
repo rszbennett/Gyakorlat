@@ -34,7 +34,7 @@ background-color: #B50014;
 .time{
     display: inline-flex;
     background-color: #252525;
-    z-index: 11;
+    z-index: 16;
     height: 40px;
     width: 100%;
 }
