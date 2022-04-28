@@ -89,19 +89,18 @@ label span{
 }
 .slideTextBox{
 position: absolute;
-width: 629px;
-height: 348px;
-left: 0px;
-top: 287px;
+width: 100%;
+height: auto;
+padding: auto;
+margin:3%;
 z-index: 10;
 
 background: rgba(0, 0, 0, 0.3);
 }
-h1{
+h1>text{
 position: absolute;
-width: 270px;
-height: 90px;
-left: 260px;
+width: 100%;
+height: auto;
 
 font-family: 'Roboto Condensed';
 font-style: normal;
@@ -111,12 +110,12 @@ line-height: 45px;
 
 color: #FFFFFF;
 }
-p{
+p>text{
 position: absolute;
-width: 275px;
-height: 134px;
-left: 298px;
-top: 135px;
+width: 100%;
+height: auto;
+
+
 
 /* body */
 font-family: 'Roboto';
@@ -152,20 +151,17 @@ color: #FFFFFF;
     .slideTextBox{
         position: absolute;
         margin: 2%;
-        text-align: top;
-        width: 0%;
-        left: 0px;
-    
+        text-align: center;
+        width: 100%;
+        flex-flow: column ;
+        
         background: rgba(0, 0, 0, 0.3);
         }
         h1{
             position: relative;
             width: 100%;
-            left: 15%;
-            margin-top: -5%;
-            margin-left: 20%;
-            margin-right: 20%;
-            text-align: left;
+            
+            
             font-family: 'Roboto Condensed';
             font-style: normal;
             font-weight: 700;
@@ -177,10 +173,8 @@ color: #FFFFFF;
             p{
             position: relative;
             width: 100%;
-            margin-left: 2%;
-            margin-right: 2%;
-            margin-top: -10%;
-            text-align: left;
+            margin-top: -15%;
+           
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 300;
