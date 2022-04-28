@@ -190,7 +190,7 @@ color: #FFFFFF;
 }
 .spice{
     display: flex;
-    flex-flow: row-reverse nowrap;
+    flex-flow: row wrap-reverse;
     height: 875px;
 }
 .spiceText{
