@@ -3,13 +3,19 @@ width: 100%;
 height: 100px;
 background-color: #B50014;
 }
+.radio{
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
 .navButton {
     background-color: #B50014;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 18.75px;
     overflow: hidden;
+<<<<<<< HEAD
  padding-top: 20px;
     margin-right: 24%;
     display: flex;
@@ -18,6 +24,11 @@ background-color: #B50014;
   }
   
 
+=======
+    margin-left: 28%;
+    padding-top: 26px;
+  }
+>>>>>>> 14e53703521bc700f177d6c26e32f5aad649d331
   .navButton a {
     float: left;
     color: #f2f2f2;
@@ -26,6 +37,7 @@ background-color: #B50014;
     text-decoration: none;
     font-size: 17px;
   }
+<<<<<<< HEAD
   
 
   .navButton a:hover {
@@ -34,19 +46,26 @@ background-color: #B50014;
   }
   
 
+=======
+>>>>>>> 14e53703521bc700f177d6c26e32f5aad649d331
   .navButton .icon {
     display: none;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 685px) {
     .navButton a:not(:first-child) {display: none;}
     .navButton a.icon {
       float: right;
       display: block;
     }
+<<<<<<< HEAD
   }
   
   
   @media screen and (max-width: 600px) {
+=======
+}
+  @media screen and (max-width: 685px) {
+>>>>>>> 14e53703521bc700f177d6c26e32f5aad649d331
     .navButton.responsive {position: relative;}
     .navButton.responsive a.icon {
       position: absolute;
@@ -58,7 +77,13 @@ background-color: #B50014;
       display: block;
       text-align: left;
     }
-  }
+    .navButton a{
+      padding: 0%;
+      padding-bottom: 20px;
+      margin-left: 12%;
+      margin-right: 10%;
+    }
+}
 .time{
     display: inline-flex;
     background-color: #252525;
@@ -78,10 +103,10 @@ background-color: #B50014;
 }
 .logo{
     position: absolute;
-    left: 20%;
+    left: 16%;
     width: 177.2px;
     height: 177.2px;
-    z-index:  12;
+    z-index: 12;
 }
 .Handwerk > h4{
     font-weight: 300;
@@ -298,7 +323,17 @@ padding-top: 40px;
     margin-left: 22%;
 }
 @media screen and (max-width: 685px){
-
+    .time label{
+        display: relative;
+        margin-left: 38%;
+        z-index: 11;
+        padding: 0;
+        height: fit-content;
+        color: #fff;
+        padding-top: 10px;
+        width: auto;
+        font-size: xx-small;
+    }
     .Fleischversand >img{
         width: 300%;
         margin-left: -400px;
