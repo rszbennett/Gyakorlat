@@ -529,6 +529,10 @@ color: #FFFFFF;
     .slider_box{
         display: none;
     }
+    .slider_box2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .slider_box3{
         display: none;
     }
