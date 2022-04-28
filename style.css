@@ -55,6 +55,15 @@ background-color: #B50014;
     height: 177.2px;
     z-index:  12;
 }
+.Handwerk > h4{
+    font-weight: 300;
+    margin-top: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 50%;
+    margin-left: 25%;
+}
+
 .Fleischversand > h2{
     position: absolute;
     left: 44%;
