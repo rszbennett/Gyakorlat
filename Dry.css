@@ -247,6 +247,7 @@ color: #FFFFFF;
         width: 100%;  
         flex-flow: column-reverse; 
         text-align: center;
+        margin-top: 300px;
     }
     .dryText{
         margin-left: 5%;
@@ -295,6 +296,10 @@ color: #FFFFFF;
         line-height: 24px;
         /* or 150% */
         color: #FFFFFF;
+    }
+    .logo > img{
+        width: 128px;
+        height: 128px;
     }
     .buttons{
         display: flex;
