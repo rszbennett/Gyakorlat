@@ -238,7 +238,7 @@ color: #FFFFFF;
     .dry{
         width: 100%;  
         flex-flow: column-reverse; 
-        margin-top: 10%;
+        
         text-align: center;
     }
     .dryText{
@@ -260,6 +260,7 @@ color: #FFFFFF;
         color: #FFFFFF;
         order: 0;
         width: 100%;  
+        margin-bottom: 5px;
     }
     .title{
         position: flex;
@@ -272,6 +273,7 @@ color: #FFFFFF;
         font-size: 22px;
         line-height: 26px;
         color: #FFFFFF;
+        
         width: 100%;
     }
     .text{
