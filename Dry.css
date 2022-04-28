@@ -525,4 +525,7 @@ color: #FFFFFF;
     .slider_box3{
         display: none;
     }
+    .boxText2 > img{
+        display: none;
+    }
 }
