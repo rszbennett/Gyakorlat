@@ -191,6 +191,10 @@ background-color: #B50014;
     margin-right: auto;
     width: 100px;
 }
+.boxText2 > img{
+    position: relative;
+    left: 45%;
+}
 .Empfehlungs > button{
     width: 174px;
     height: 47px;
