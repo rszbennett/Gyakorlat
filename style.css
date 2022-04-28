@@ -128,22 +128,55 @@ background-color: #B50014;
 .E_slider{
     display: flex;
     flex-flow: row;
-    width: 429px;
+    width: 100%;
     height: 414px;
-    background-color: #252525;
-    justify-content: center;
-    margin-left: 36%;
+    justify-content: space-between;
     margin-top: 5%;
 }
 .slider_box{
     display: flex;
     flex-flow: column;
     margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 1%;
+    background-color: #252525;
+
+}
+.slider_box2{
+    display: flex;
+    flex-flow: column;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #252525;
+    height: auto;
+}
+.slider_box3{
+    display: flex;
+    flex-flow: column;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 5%;
+    background-color: #252525;
 }
 .boxText{
     text-align: center;
     width: 90%;
     margin-left: 20px;
+    margin-top: 20%;
+    color: #fff;
+}
+.boxText2{
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+    color: #fff;
+}
+.boxText3{
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20%;
     color: #fff;
 }
 .boxText > h4{
@@ -152,9 +185,9 @@ background-color: #B50014;
 .boxText > h5 {
     margin-top: -10px;
 }
-.slider_box >img{
+.slider_box2 >img{
     padding-top: 20px;
-    margin-left: 39%;
+    margin-left: 39.5%;
     width: 100px;
 }
 .Empfehlungs > button{
