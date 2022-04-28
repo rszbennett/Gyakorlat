@@ -399,9 +399,10 @@ color: #FFFFFF;
     .bImg img{
         display: flex;
         height: 290px;
-        width: 433px;
+       
         margin-top: 0;
-        float: right;
+       margin-left: auto;
+       margin-right: auto;
     }
     /*Handwerk*/
     .Handwerk h2{
