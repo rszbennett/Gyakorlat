@@ -348,7 +348,6 @@ color: #FFFFFF;
         
     }
     .smallImg img{
-<<<<<<< HEAD
         width: 160px;
         height: 160px;
     }
@@ -509,12 +508,10 @@ color: #FFFFFF;
         margin-top: -170px;
         height: 280px;
         width: 100%;
-=======
         flex-flow:row nowrap;
         padding-left: 5%;
         width: 25%;
         height: auto;
->>>>>>> 0eee8af5ae03ae34310097ec1843d87896704a1a
     }
     .Genussnetzwerk {
         display: flex;
