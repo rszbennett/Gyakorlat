@@ -346,4 +346,8 @@ color: #FFFFFF;
         width: 25%;
         height: auto;
     }
+    .Genussnetzwerk {
+        display: flex;
+        flex-flow: column;
+    }
 }
