@@ -304,13 +304,38 @@ padding-top: 40px;
     .logo{
         position:absolute;
         left: 2%;
-        width: 96;
+        width: auto;
         height: auto;
+        max-width: 60px;
+        min-width: 60px;
         z-index:  12;
     }
     .header{
-        width: 100%;
-        height: 100px;
-        background-color: #B50014;
+     width: 100%;
+     height: 100px;
+     background-color: #B50014;
+    }
+
+        .footop > h4{
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 20%;
+            line-height: 25px;
+            color: #fff; 
+            width: 50%;
+        }
+        
+        .footbottom{
+            display: flex;
+            flex-flow: row;
+            width: 100%;
+            background-color: #66000B;
+            height:  20px   ;
+        }
+        .footbottom > h5{
+            color: rgba(255, 255, 255, 0.5);
+            margin-top:3px;
+            font-size: 11px;
+            margin-left: 22%;
         }
 }
