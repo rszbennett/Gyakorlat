@@ -295,7 +295,17 @@ padding-top: 40px;
     margin-left: 22%;
 }
 @media screen and (max-width: 685px){
-
+    .time label{
+        display: relative;
+        margin-left: 38%;
+        z-index: 11;
+        padding: 0;
+        height: fit-content;
+        color: #fff;
+        padding-top: 10px;
+        width: auto;
+        font-size: xx-small;
+    }
     .Fleischversand >img{
         width: 300%;
         margin-left: -400px;
