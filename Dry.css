@@ -190,8 +190,10 @@ color: #FFFFFF;
 }
 .spice{
     display: flex;
-    flex-flow: row wrap-reverse;
+    flex-wrap: wrap;
+    flex-flow: row;
     height: 875px;
+    
 }
 .spiceText{
     font-family: 'roboro';
@@ -202,32 +204,38 @@ color: #FFFFFF;
     align-items: center;
 
 }
-.spiceText:nth-of-type(1) h2{
+.spiceText > h2{
     margin-top: 10%;
     font-size: 21pt;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-.spiceText:nth-last-of-type(2) h2{
+.spiceText > h3{
     font-size: 13pt;
     width: 40%;
+    color: #FFFFFF;
     line-height: 30px;
     text-align: left;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-.spiceText h3{
+.spiceText h4{
     font-size: 12pt;
     color: #FFFFFF;
     width: 40%;
     text-align: left;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     list-style: none;
-
+    font-weight: 300;
 }
 .spiceImg{
     display: block;
     margin-left: auto;
+    margin-right: auto;
     width: 50%;
     margin-top: 170px;
     float:  right;
@@ -342,10 +350,9 @@ color: #FFFFFF;
         
     }
     .smallImg img{
-        flex-flow:row nowrap;
-        padding-left: 5%;
-        width: 25%;
-        height: auto;
+<<<<<<< HEAD
+        width: 160px;
+        height: 160px;
     }
 
     /* Grillkurs */
@@ -503,7 +510,16 @@ color: #FFFFFF;
     .spiceImg > img{
         margin-top: -170px;
         height: 280px;
-        width: auto;
+        width: 100%;
+=======
+        flex-flow:row nowrap;
+        padding-left: 5%;
+        width: 25%;
+        height: auto;
+>>>>>>> 0eee8af5ae03ae34310097ec1843d87896704a1a
+    }
+    .Genussnetzwerk {
+        display: flex;
+        flex-flow: column;
     }
 }
-
