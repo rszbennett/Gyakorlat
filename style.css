@@ -302,19 +302,29 @@ padding-top: 40px;
 }
 @media screen and (max-width: 685px){
 
+    .Fleischversand >img{
+        width: 300%;
+        margin-left: -400px;
+        margin-right: auto;
+        margin-top: -50px;
+        position: absolute;
+    }
     .Genussnetzwerk{
         display: flex;
         flex-flow: column;
     }
     .GenussImg{
         float: left;
-        margin-top: 20%;
-        margin-left: 15%;
+        margin-top: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .GenussText{
         margin-top: 20%;
-        margin-left: 20%;
-        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 60%;
     }
     .GenussText > button{
     width: 174px;
@@ -323,18 +333,114 @@ padding-top: 40px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 40px; 
+    margin-left: auto;
+        margin-right: auto;
     }
-
+    .hrlogo{
+        display: block;
+        margin-left: -360px;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+    .Auszeichnungen{
+        display: flex;
+        flex-flow: column;
+        height: auto;
+        margin-top: 10%;
+        justify-content: center;
+        
+    }
+    .Auszeichnungen > img{
+        display: block;
+        flex-flow: column ;
+        padding: 7px;
+        width: 90px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Auszeichnungen > h2{
+        text-align: center;
+        margin-top: 40px;
+    }
     .logo{
         position:absolute;
         left: 2%;
-        width: 96;
+        width: auto;
         height: auto;
+        max-width: 60px;
+        min-width: 60px;
         z-index:  12;
     }
     .header{
-        width: 100%;
-        height: 100px;
+     width: auto;
+     height: auto;
+     background-color: #B50014;
+    }
+
+    .footop{
+        margin-top: 100px;
         background-color: #B50014;
-        }
+        width: 100%;
+        height: 520px;
+        display: flex;
+        flex-flow: column;
+    }
+    .footLogo{
+        display: flex;
+        width: 131px;
+        height: 131px;
+        margin-left: -50px;
+        margin-top: 50%;
+    }
+    .Social{
+        display: flex;
+        flex-flow: column;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+    }
+    .Social > img{
+        height:41px ;
+        margin-top: auto;
+        
+    }
+    .Social >h5{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footop > h4{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 25px;
+        color: #fff; 
+        width: 50%;
+        text-align: center;
+    }
+    
+    .footbottom{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        background-color: #66000B;
+        height:  120px   ;
+    }
+    .footbottom > h5{
+        color: rgba(255, 255, 255, 0.5);
+        margin-top:3px;
+        font-size: 11px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+
+
+    }
 }
