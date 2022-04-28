@@ -98,8 +98,10 @@ background-color: #B50014;
 .Auszeichnungen{
     display: flex;
     flex-flow: row;
-    margin-left: 15%;
+   width: 100%;
     margin-top: 10%;
+    justify-content: center;
+    
 }
 .Auszeichnungen > img{
     padding-left: 90px;
@@ -112,6 +114,7 @@ background-color: #B50014;
 .Empfehlungs{
     display: flex;
     flex-flow: column;
+    justify-content: center;
 }
 .Empfehlungs > h2{
     margin-top: auto;
@@ -172,11 +175,40 @@ background-color: #B50014;
     margin-top: 100px;
     background-color: #B50014;
     width: 100%;
-    height: auto;
+    height: 136px;
+    display: flex;
+    flex-flow: row;
 }
-.footop > img{
-    margin-left: 45%;
+.footLogo{
+    position: absolute;
+    width: 131px;
+    height: 131px;
+    left: 45%;
 }
+.Social{
+    display: flex;
+    flex-flow: row;
+    
+    margin-right: 20px;
+    color: #fff;
+}
+.Social > img{
+    height:41px ;
+    margin-top: 50px;
+    padding-left: 25px;
+}
+.Social >h5{
+padding-top: 40px;
+}
+.footop > h4{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20%;
+    line-height: 25px;
+    color: #fff; 
+    width: 50%;
+}
+
 .footbottom{
     display: flex;
     flex-flow: row;

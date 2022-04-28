@@ -2,9 +2,6 @@
 
     display: flex;
     flex-flow: row  nowrap;
-
-    
-    
 }
 .dryText{
     display: flex;
