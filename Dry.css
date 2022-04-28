@@ -1,7 +1,11 @@
 .dry{
 
     display: flex;
+<<<<<<< HEAD
+    flex-flow: row  nowrap;
+=======
     flex-flow: row  nowrap;   
+>>>>>>> 66efae70950735f1a76955833c8ca5c5d30e0fff
 }
 .dryText{
     display: flex;
