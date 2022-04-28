@@ -187,7 +187,8 @@ background-color: #B50014;
 }
 .slider_box2 >img{
     padding-top: 20px;
-    margin-left: 39.5%;
+    margin-left: auto;
+    margin-right: auto;
     width: 100px;
 }
 .Empfehlungs > button{
