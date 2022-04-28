@@ -297,6 +297,10 @@ color: #FFFFFF;
         /* or 150% */
         color: #FFFFFF;
     }
+    .logo > img{
+        width: 128px;
+        height: 128px;
+    }
     .buttons{
         display: flex;
         flex-flow: row nowrap;

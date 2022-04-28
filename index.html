@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="index.css"> 
     <link rel="stylesheet" href="Dry.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>         
     <div class="header">
         <div class="logo">
             <img src="images/logo.png" alt="logo">
         </div>
-        <div class="navButton">
-                <a href="#" >Die Metzgerei</a>
-                <a href="#"  >Dry Aged</a>
-                <a href="#"  >Fleischversand</a>
+        <div class="navButton" id="myNavButton">
+                <a href="#">Die Metzgerei</a>
+                <a href="#">Dry Aged</a>
+                <a href="#">Fleischversand</a>
                 <a href="#">Events/Kurse</a>
-                <a href="#" >Partyservice</a>
-                <a href="#" >Tagesessen</a>
-                <a href="#" >Impressum</a>
-                <a href="#" >Kontakt</a>
+                <a href="#">Partyservice</a>
+                <a href="#">Tagesessen</a>
+                <a href="#">Impressum</a>
+                <a href="#">Kontakt</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
         </div>
     </div>
     <div class="time">
@@ -265,4 +269,16 @@
         </div>
     </footer>
 </body>
+
+<script>
+    function myFunction() {
+  var x = document.getElementById("myNavButton");
+  if (x.className === "navButton") {
+    x.className += " responsive";
+  } else {
+    x.className = "navButton";
+  }
+}
+</script>
+
 </html>
