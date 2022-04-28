@@ -151,18 +151,20 @@ color: #FFFFFF;
     .slideTextBox{
         position: absolute;
         margin: 2%;
-        text-align: center;
-        width: 100%;
+        text-align: top;
+        width: 0%;
         left: 0px;
     
         background: rgba(0, 0, 0, 0.3);
         }
         h1{
-            position: absolute;
+            position: relative;
             width: 100%;
-            height: auto;
             left: 15%;
-            margin: 10px;
+            margin-top: -5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: left;
             font-family: 'Roboto Condensed';
             font-style: normal;
             font-weight: 700;
@@ -170,12 +172,14 @@ color: #FFFFFF;
             line-height: 45px;
             color: #FFFFFF;
             }
+
             p{
-            position: absolute;
+            position: relative;
             width: 100%;
-            height: auto;
-            left: 5%;
-            top: 120px;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: -10%;
+            text-align: left;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 300;
