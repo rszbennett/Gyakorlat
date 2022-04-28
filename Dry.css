@@ -234,6 +234,7 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 685px){
+
     .dry{
         width: 100%;  
         flex-flow: column  nowrap; 
@@ -426,6 +427,7 @@ color: #FFFFFF;
         margin-left: auto;
         margin-right: auto; 
         margin-top: 80px;
+        margin-left: -360px;
         
     }
     .imageRow{
@@ -441,4 +443,61 @@ color: #FFFFFF;
         width: 177px;
         height: 163px;
     }
+    .spice{
+        display: flex;
+        flex-flow: column-reverse;
+        height: 400px;
+        margin-top: 350px;
+        
+    }
+    .spiceText{
+       
+        font-family: 'roboro';
+        width: 100%;
+        margin-top: auto;
+        background-color: #A62120;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .spiceText > h2{
+        margin-top: 10%;
+        font-size: 17pt;
+        width: auto;
+        
+    }
+    .spiceText > h3{
+        font-size: 12pt;
+        width: 60%;
+        line-height: 30px;
+        text-align: center;
+        margin-left: 20%;
+        
+    }
+    .spiceText > h4{
+        font-size: 11pt;
+        color: #FFFFFF;
+        width: 80%;
+        font-weight: normal;
+        text-align: center;
+        margin-left: 40px;
+        list-style: none;
+        opacity: 0.8;
+    
+    }
+    .spiceImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      
+     
+        float:  right;
+    }
+    .spiceImg > img{
+        margin-top: -170px;
+        height: 280px;
+        width: auto;
+    }
 }
+
