@@ -510,8 +510,14 @@ color: #FFFFFF;
         height: 280px;
         width: 100%;
     }
-    .Genussnetzwerk {
-        display: flex;
-        flex-flow: column;
+    .E_slider{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .slider_box{
+        display: none;
+    }
+    .slider_box3{
+        display: none;
     }
 }

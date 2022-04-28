@@ -144,6 +144,7 @@ background-color: #B50014;
     height: 414px;
     justify-content: space-between;
     margin-top: 5%;
+    font-weight: 300;
 }
 .slider_box{
     display: flex;
