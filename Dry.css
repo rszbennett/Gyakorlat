@@ -280,7 +280,6 @@ color: #FFFFFF;
         font-size: 22px;
         line-height: 26px;
         color: #FFFFFF;
-        
         width: 100%;
     }
     .text{
@@ -306,7 +305,7 @@ color: #FFFFFF;
         justify-content: flex-start;
         flex-flow: column;
         flex-direction: column;
-        height: 47px;
+        height: auto;
         background: #A62120;
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
@@ -321,7 +320,7 @@ color: #FFFFFF;
         flex-direction: column;
         margin-left: 0.5%;
         text-align:center;
-        height: 47px;
+        height: auto;
         background: #A62120;
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
@@ -347,6 +346,7 @@ color: #FFFFFF;
     }
     .bigImg img{
         width: 100% ;
+        padding-top: 400px;
         
     }
     .smallImg img{
