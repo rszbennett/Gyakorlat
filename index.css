@@ -139,9 +139,9 @@ background: rgba(0, 0, 0, 0.3);
             width: 70%;
         }
         .textBoxtxt > h1{
-     
-        
             margin-top: 100px;
+            margin-left: 150px;
+            width: 62%;
             color: #ffffff;
         }
         .textBoxtxt > p{
