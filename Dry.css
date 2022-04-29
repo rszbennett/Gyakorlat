@@ -108,18 +108,18 @@ color: #FFFFFF;
 .Buchen{
     display: flex;
     flex-flow: row;
-    height: 695px;
+    height: 531px;
 }
 .Btext{
     font-family: 'roboro';
-    width: 50%;
+    width: 70%;
     margin-top: 50px;
     background-color: #A62120;
     text-align: center;
     align-items: center;
 }
 .Btext h2{
-    padding-top: 9%;
+    
     text-align: left;
     margin-left: 35%;
     width: 40%;
@@ -144,11 +144,12 @@ color: #FFFFFF;
     color: #252525;
 }
 .bImg img{
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+    float:  right;
     margin-top: 50px;
-    height: 647px;
-    float: right;
 }
 .Handwerk h2{
     text-align: center;
@@ -250,9 +251,10 @@ color: #FFFFFF;
         margin-top: 300px;
     }
     .dryText{
-        margin-left: 5%;
+        margin-left:auto;
+        margin-right: auto;
         float: left;
-        width: 100%;  
+        width: 80%;  
     }
     h2{
         position: flex;
@@ -294,7 +296,6 @@ color: #FFFFFF;
         font-weight: 300;
         font-size: 18px;
         line-height: 24px;
-        /* or 150% */
         color: #FFFFFF;
     }
     .logo > img{
@@ -350,13 +351,22 @@ color: #FFFFFF;
         flex-direction: column;
     }
     .bigImg img{
+<<<<<<< HEAD
         width: 100% ;
         padding-top: 400px;
+=======
+
+        width: 300px;
+        margin-left: 13px;
+        height: auto;
+        padding: 5px;
+>>>>>>> 72e4cef5df9607b9223a551c5215085bdbdd5688
         
     }
     .smallImg img{
         width: 28%;
-        margin-right: 3%;
+        height: auto;
+        padding-left: 10px;
     }
 
     /* Grillkurs */

@@ -15,20 +15,11 @@ background-color: #B50014;
     font-size: 16px;
     line-height: 18.75px;
     overflow: hidden;
-<<<<<<< HEAD
- padding-top: 20px;
-    margin-right: 24%;
+    padding-top: 25px;
+    margin-right: 13%;
     display: flex;
     justify-content: flex-end;
-    
   }
-  
-
-=======
-    margin-left: 28%;
-    padding-top: 26px;
-  }
->>>>>>> 14e53703521bc700f177d6c26e32f5aad649d331
   .navButton a {
     float: left;
     color: #f2f2f2;
@@ -37,17 +28,9 @@ background-color: #B50014;
     text-decoration: none;
     font-size: 17px;
   }
-<<<<<<< HEAD
-  
-
   .navButton a:hover {
-    
     color: black;
   }
-  
-
-=======
->>>>>>> 14e53703521bc700f177d6c26e32f5aad649d331
   .navButton .icon {
     display: none;
   }
@@ -57,15 +40,8 @@ background-color: #B50014;
       float: right;
       display: block;
     }
-<<<<<<< HEAD
   }
-  
-  
   @media screen and (max-width: 600px) {
-=======
-}
-  @media screen and (max-width: 685px) {
->>>>>>> 14e53703521bc700f177d6c26e32f5aad649d331
     .navButton.responsive {position: relative;}
     .navButton.responsive a.icon {
       position: absolute;
