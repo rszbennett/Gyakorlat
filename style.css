@@ -15,14 +15,11 @@ background-color: #B50014;
     font-size: 16px;
     line-height: 18.75px;
     overflow: hidden;
-    padding-top: 20px;
-    margin-right: 10%;
+    padding-top: 25px;
+    margin-right: 13%;
     display: flex;
     justify-content: flex-end;
-    
   }
-  
-
   .navButton a {
     float: left;
     color: #f2f2f2;
@@ -31,14 +28,9 @@ background-color: #B50014;
     text-decoration: none;
     font-size: 17px;
   }
-  
-
   .navButton a:hover {
-    
     color: black;
   }
-  
-
   .navButton .icon {
     display: none;
   }
@@ -49,8 +41,6 @@ background-color: #B50014;
       display: block;
     }
   }
-  
-  
   @media screen and (max-width: 600px) {
     .navButton.responsive {position: relative;}
     .navButton.responsive a.icon {
