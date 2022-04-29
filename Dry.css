@@ -256,7 +256,7 @@ color: #FFFFFF;
         float: left;
         width: 80%;  
     }
-    h2{
+    .dryTexth2{
         position: flex;
         justify-content: flex-start;
         flex-flow: column;
