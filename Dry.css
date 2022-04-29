@@ -351,16 +351,10 @@ color: #FFFFFF;
         flex-direction: column;
     }
     .bigImg img{
-<<<<<<< HEAD
-        width: 100% ;
-        padding-top: 400px;
-=======
-
         width: 300px;
         margin-left: 13px;
         height: auto;
         padding: 5px;
->>>>>>> 72e4cef5df9607b9223a551c5215085bdbdd5688
         
     }
     .smallImg img{
