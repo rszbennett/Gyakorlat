@@ -54,8 +54,7 @@ background-color: #B50014;
       text-align: left;
     }
     .navButton a{
-        display: flex;
-        flex-flow: column;
+        
       padding: 0%;
       padding-bottom: 20px;
       margin-left: 12%;
