@@ -300,9 +300,6 @@ padding-top: 40px;
     margin-left: 22%;
 }
 @media screen and (max-width: 685px){
-    .navButton a{ 
-        display: none;
-    }
     .time label{
         display: relative;
         margin-left: 38%;
