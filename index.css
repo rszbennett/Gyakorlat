@@ -89,7 +89,6 @@ label span{
 100%{opacity:1;}
 }
 .slideTextBox{
-<<<<<<< HEAD
 position: absolute;
 width: 629px;
 height: 348px;
@@ -110,25 +109,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 38px;
 line-height: 45px;
-=======
-    position: absolute;
-    width: 30%;
-    height: auto;
-    background: rgba(0, 0, 0, 0.5);
-}
-.textBoxtxt{
-    position: absolute;
-    top: 100px;
-    z-index: 12;
-    background: rgba(0, 0, 0, 0.5);
-    color: #FFFFFF;
-    text-align: left;
-    height: 400px;
->>>>>>> fc2330285b7fce8c2be87cc00340e1e3c86e3005
 
    
 }
-<<<<<<< HEAD
 p{
 position: absolute;
 width: 275px;
@@ -145,7 +128,7 @@ line-height: 24px;
 /* or 150% */
 
 color: #FFFFFF;
-=======
+}
 .textBoxtxt > h1{
     width: 50%;
     margin-left: 180px;
@@ -155,7 +138,6 @@ color: #FFFFFF;
     width: 50%;
     margin-left: 180px;
   
->>>>>>> fc2330285b7fce8c2be87cc00340e1e3c86e3005
 }
 
 @media screen and (max-width: 685px){
@@ -175,7 +157,6 @@ color: #FFFFFF;
         width: 12px;
         height: 12px;
     }
-<<<<<<< HEAD
 
     .slideTextBox>text{
         position: absolute;
@@ -216,16 +197,6 @@ color: #FFFFFF;
             }
         
 }
-=======
-    .textBoxtxt{
-        margin-top: 20%;
-        background-color: transparent;
-        text-align: center;
-        margin-left: -100px;
-        margin-right: auto;
-    }
-
->>>>>>> fc2330285b7fce8c2be87cc00340e1e3c86e3005
 @media screen  and(min-width: 970px){
     .me{ display: none;}
-}}
+}
