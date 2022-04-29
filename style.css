@@ -40,8 +40,6 @@ background-color: #B50014;
       float: right;
       display: block;
     }
-  }
-  @media screen and (max-width: 600px) {
     .navButton.responsive {position: relative;}
     .navButton.responsive a.icon {
       position: absolute;
@@ -54,13 +52,14 @@ background-color: #B50014;
       text-align: left;
     }
     .navButton a{
-        
+      display: flex;
+      flex-flow: column;
       padding: 0%;
       padding-bottom: 20px;
       margin-left: 12%;
       margin-right: 10%;
     }
-}
+  }   
 .time{
     display: inline-flex;
     background-color: #252525;

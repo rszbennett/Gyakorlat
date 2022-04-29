@@ -108,7 +108,7 @@ color: #FFFFFF;
 .Buchen{
     display: flex;
     flex-flow: row;
-    height: 531px;
+    height: 631px;
 }
 .Btext{
     font-family: 'roboro';
@@ -371,7 +371,7 @@ color: #FFFFFF;
         height: 556px;
     }
     .Btext{
-        font-family: 'Roboro';
+        font-family: 'Roboto';
         width: 100%;
         margin-top: 50px;
         padding-bottom: 70px;
@@ -382,8 +382,8 @@ color: #FFFFFF;
     .Btext h2{
         padding-top: 9%;
         text-align: left;
-        margin-left: 100px;
-        width: 50%;
+        margin-left: 18%;
+        width: 80%;
         font-size: 20pt;
     }
     .Btext ul{
@@ -392,8 +392,8 @@ color: #FFFFFF;
         margin-left: -10%;
         text-align: center;
         color: #FFFFFF;
-        font-size: 17px;
-      
+        font-size: 16px;
+        line-height: 36px;
     }
     .Btext > button{
         width: 174px;
