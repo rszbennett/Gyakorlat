@@ -38,7 +38,7 @@ background-color: #B50014;
     .navButton a:not(:first-child) {display: none;}
     .navButton a.icon {
       float: right;
-      display: contents;
+      display: block;
     }
     .navButton.responsive {position: relative;}
     .navButton.responsive a.icon {
@@ -56,7 +56,8 @@ background-color: #B50014;
       flex-flow: column;
       padding: 0%;
       padding-bottom: 20px;
-      margin-right: 15%;
+      margin-left: 12%;
+      margin-right: 10%;
     }
   }   
 .time{
@@ -298,9 +299,6 @@ padding-top: 40px;
     margin-left: 22%;
 }
 @media screen and (max-width: 685px){
-    .navButton a{ 
-        display: none;
-    }
     .time label{
         display: relative;
         margin-left: 38%;

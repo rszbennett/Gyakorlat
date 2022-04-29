@@ -99,37 +99,7 @@ z-index: 10;
 
 background: rgba(0, 0, 0, 0.3);
 }
-h1{
-position: absolute;
-width: 270px;
-height: 90px;
-left: 260px;
 
-font-family: 'Roboto Condensed';
-font-style: normal;
-font-weight: 700;
-font-size: 38px;
-line-height: 45px;
-
-   
-}
-p{
-position: absolute;
-width: 275px;
-height: 134px;
-left: 298px;
-top: 135px;
-
-/* body */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
-
-color: #FFFFFF;
-}
 .textBoxtxt > h1{
     width: 50%;
     margin-left: 180px;
@@ -145,59 +115,47 @@ color: #FFFFFF;
     .container{
         border: none;
         width: 100%;
-        height: 0;
+        height: auto;
         padding-bottom: 400px; 
     }	
     
     label span { font-size: 50pt; }
     
-    .prev, .next{
-        width: 15%;
-    }	
-    #nav_slide .dots{
-        width: 12px;
-        height: 12px;
+        .prev, .next{
+            width: 15%;
+        }	
+        #nav_slide .dots{
+            width: 12px;
+            height: 12px;
+        }
+        .textBoxtxt{
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            margin-top: 50px;
+            margin-left: -100px;
+            width: 70%;
+        }
+        .textBoxtxt > h1{
+     
+        
+            margin-top: 100px;
+            color: #ffffff;
+        }
+        .textBoxtxt > p{
+       
+            color: #ffffff;
+          
+        }
+        .slideTextBox{
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            z-index: 10;
     }
 
-    .slideTextBox>text{
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        height: auto;
-        margin-left: -28%;
-        margin-top: 400px;
-        margin-bottom: 5px;
-        background: rgba(0, 0, 0, 0.3);
-        }
-
-        h1>text{
-            position: absolute;
-            padding-top: 50px;
-            width: 100%;
-            font-family: 'Roboto Condensed';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 38px;
-            line-height: 45px;
-            color: #FFFFFF;
-            }
-
-            p>text{
-            position: relative;
-            width: 100%;
-            text-align: center;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 24px;
-            color: #FFFFFF;
-            margin-left: 150px;
-            padding-bottom: -200px;
-            padding-top: 100px;
-            }
-        
-}
+} 
 @media screen  and(min-width: 970px){
     .me{ display: none;}
+
 }
