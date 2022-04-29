@@ -413,7 +413,9 @@ color: #FFFFFF;
        margin-left: auto;
        margin-right: auto;
     }
-    /*Handwerk*/
+    .Handwerk{
+        padding-top: 10%;
+    }
     .Handwerk h2{
         text-align: center;
         color:#FFFFFF;
@@ -469,7 +471,7 @@ color: #FFFFFF;
         display: flex;
         flex-flow: column-reverse;
         height: 400px;
-        margin-top: 350px;
+        margin-top: 450px;
         
     }
     .spiceText{
