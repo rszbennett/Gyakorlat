@@ -38,7 +38,7 @@ background-color: #B50014;
     .navButton a:not(:first-child) {display: none;}
     .navButton a.icon {
       float: right;
-      display: contents;
+      display: block;
     }
   }
   @media screen and (max-width: 600px) {
@@ -54,11 +54,10 @@ background-color: #B50014;
       text-align: left;
     }
     .navButton a{
-        display: flex;
-        flex-flow: column;
       padding: 0%;
       padding-bottom: 20px;
-      margin-right: 15%;
+      margin-left: 12%;
+      margin-right: 10%;
     }
 }
 .time{
@@ -300,9 +299,6 @@ padding-top: 40px;
     margin-left: 22%;
 }
 @media screen and (max-width: 685px){
-    .navButton a{ 
-        display: none;
-    }
     .time label{
         display: relative;
         margin-left: 38%;
